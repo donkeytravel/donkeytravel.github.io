@@ -3948,8 +3948,8 @@ cite {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  /* background-color: #1c1c1c; */
-  background-color: white; //kyr
+  background-color: #1c1c1c;
+  /* background-color: white; //kyr */
   z-index: 1;
 }
 
@@ -3968,8 +3968,8 @@ cite {
 }
 
 .main_header nav a {
-  /* color: #ffffff; */
-  color: black; //kyr
+  color: #ffffff;
+  /* color: black; //kyr */
   text-decoration: none;
   margin-left: 2rem;
 }
@@ -4006,6 +4006,7 @@ cite {
 
 .chapters .chapter {
   position: relative;
+  /* width: 32.333%; */
   width: 32.333%;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
@@ -4973,3 +4974,31 @@ cite {
   margin-bottom: 1%;
 }
 
+/* for footnotes */
+.footnotes p {
+    font-size: 1em;
+    margin-bottom: 1em!important;
+}
+article .footnotes :target {
+    -webkit-animation: target-fade 5s 1;
+    -moz-animation: target-fade 5s 1;
+}
+@-webkit-keyframes target-fade {
+    0% { background-color: yellow; }
+    100% { background-color: rgba(0,0,0,0); }
+}
+@-moz-keyframes target-fade {
+    0% { background-color: yellow; }
+    100% { background-color: rgba(0,0,0,0); }
+}
+/* enclose fottnote indicator number inside [] */
+a.footnote:before {   
+    content: "[";
+}
+a.footnote:after {
+    content: "]";
+}
+a.footnote {
+    text-decoration:none;
+    font-weight: bold;
+}

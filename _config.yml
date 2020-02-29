@@ -1,23 +1,23 @@
 # logo: Donkey # add logo name
-logo: logo.png # add logo name
+logo: donkey-logo-dark.png # add logo name
 title: Donkey - Enjoy Travel
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-permalink: ':title/'
+permalink: '/blog/:title/'
 baseurl:
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: banner.jpg #mountains.mp4 #waterfall.mov #mountains.mp4 # add banner video. Add your video file to the folder video
+video: mountains.mp4 #banner.jpg #mountains.mp4 # add banner video. Add your video file to the folder video
 banner-title: Enjoy Travel # add banner title
-banner-desc: # add banner description
+banner-desc: "\"Of all the paths you take in life, make sure a few of them are dirt.\"<br> -JOHN MUIR"
 
 # Author settings
 author-pic: avatar3.jpg # your photo
 author-name: Irene
-about-author: Enjoy Travel
+about-author: "Hi, I am Irene, the author of Travel Donkey, the blog you're currently viewing. <br>I hope you like it!"
 email: info@donkeytravel.eu # your email
 phone:
 website: https://www.donkeytravel.eu # you website
