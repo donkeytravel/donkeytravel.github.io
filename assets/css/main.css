@@ -211,6 +211,9 @@ audio:not([controls]) {
  */
 img {
   border-style: none;
+  width: 100%;
+  /* max-height: 500px; */
+  vertical-align: middle;
 }
 
 /**
@@ -3931,7 +3934,8 @@ cite {
 }
 
 .main_header {
-  padding: 2rem;
+  /* padding: 2rem; */
+  padding: 1rem; //kyr
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3944,12 +3948,14 @@ cite {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1c1c1c;
+  /* background-color: #1c1c1c; */
+  background-color: white; //kyr
   z-index: 1;
 }
 
 .main_header .logo {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
   margin: 0;
   font-size: 2rem;
   text-decoration: none;
@@ -3962,7 +3968,8 @@ cite {
 }
 
 .main_header nav a {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black; //kyr
   text-decoration: none;
   margin-left: 2rem;
 }
@@ -4014,6 +4021,7 @@ cite {
 
 .chapters .chapter img {
   width: 100%;
+  height: 300px; //kyr
   vertical-align: middle;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -4915,3 +4923,53 @@ cite {
     font-size: 1.2rem;
   }
 }
+
+/* ---- grid ---- */
+
+.grid {
+  padding-bottom: 6%;
+  padding-top: 1%;
+
+
+  /* clear fix */
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+/* ---- .grid-item within masonry ---- */
+
+.grid-sizer,
+.grid-item {
+  /* state column width */
+  width: 32.6%;
+}
+
+.grid-item {
+  float: left;
+  border-radius: 5px;
+
+  img {
+    /* for image formatting in the masonry */
+    display: block;
+    max-width: 100%;
+    min-height: 30%;
+  }
+}
+
+/* --- Masonry gutter size --- */
+
+.gutter-sizer {
+  width: 1%;
+}
+
+.grid-item:first-of-type {
+  margin-bottom: 1%;
+}
+
+.grid-item {
+  margin-bottom: 1%;
+}
+

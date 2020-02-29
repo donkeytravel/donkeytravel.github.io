@@ -1,8 +1,11 @@
 
 <header class="main_header">
-  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}B<span>ef</span>{% endif %}</a>
+  <!-- <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}B<span>ef</span>{% endif %}</a> -->
+  <a href="{{site.baseurl}}/" class="logo"><img src="{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.name }}"></a>
+          <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
   <nav class="main_menu">
     <a href="{{site.baseurl}}/about/">About</a>
+    <!-- <a href="{{site.baseurl}}/gallery/">Gallery</a> -->
     <a href="{{site.baseurl}}/contact/">Contact</a>
   </nav>
 </header> <!-- End Section Header -->
