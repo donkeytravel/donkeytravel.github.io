@@ -5002,3 +5002,35 @@ a.footnote {
     text-decoration:none;
     font-weight: bold;
 }
+.banner_container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#banner_container .content .title, #banner .content .sub_title {
+  text-align: center;
+  color: #ffffff;
+}
+#banner_container .content .title {
+  font-size: 3.5rem;
+  margin: 0 0 1rem 0;
+}
+#banner_container .content .sub_title {
+  font-weight: 400;
+  font-size: 1.35rem;
+  margin: 0 auto 2rem auto;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+.banner__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
