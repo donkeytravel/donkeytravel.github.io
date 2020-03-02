@@ -3528,7 +3528,7 @@ template {
 .highlighter-rouge {
   color: #e74b3c;
   font-weight: 400;
-  border: 1px solid #607D8B;
+  /* border: 1px solid #607D8B; //kyr */
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
@@ -4007,7 +4007,7 @@ cite {
 .chapters .chapter {
   position: relative;
   /* width: 32.333%; */
-  width: 32.333%;
+  width: 50%;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.4s;
@@ -4022,7 +4022,7 @@ cite {
 
 .chapters .chapter img {
   width: 100%;
-  height: 300px; //kyr
+  height: 300px;
   vertical-align: middle;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
