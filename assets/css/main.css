@@ -4998,7 +4998,7 @@ a.footnote:before {
 a.footnote:after {
     content: "]";
 }
-a.footnote {
+a.footnote,
+a.reversefootnote {
     text-decoration:none;
-    font-weight: bold;
 }
