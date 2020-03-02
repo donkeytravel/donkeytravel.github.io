@@ -11,7 +11,7 @@ permalink: /about/
           <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">
         </div>
         <div class="author_info">
-          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}Dwayne Newman{% endif %}</h2>
+          <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% endif %}</h2>
           <p class="author_subtitle">{% if site.about-author %}{{site.about-author}}{% else %}La croix godard blue bottle, vape iceland fingerstache cronut single-origin coffee lyft snackwave normcore small batch.{% endif %}</p>
           <p class="author_subtitle">Το site αυτό δημιουργήθηκε για να αποτυπωθούν και να συγκεντρωθούν οι εμπειρίες μου από τα ταξίδια που έχω κάνει τα τελευταία χρόνια μαζί με τον σύντροφο μου.</p>
           <p class="author_subtitle">Να έχω κάτι να διαβάζω όταν θα έχω πάθει άνοια,για να θυμάμαι τι ωραία που πέρασα, ταξιδεύοντας και γνωρίζοντας τον κόσμο! Η ιστορία του κάθε ταξιδιού είναι καθαρά υποκειμενική και σκοπό έχει να παροτρύνει τους αναγνώστες,(κυρίως φίλους), να αρχίσουν να ταξιδεύουν και αυτοί. Οι αναφορές που γίνονται σε ξενοδοχεία ή εστιατόρια δεν αποτελούν διαφήμιση , δεν συνεργάζομαι με καμία επιχείρηση και είναι καθαρά προσωπικές απόψεις βάσει των εμπειριών μου.</p>
