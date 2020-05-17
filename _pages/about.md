@@ -2,7 +2,7 @@
 layout: simple
 title: About Donkey Travel
 img: about.png
-permalink: /about
+permalink: /about/
 ---
 
 Το site αυτό δημιουργήθηκε για να αποτυπωθούν και να συγκεντρωθούν οι εμπειρίες μου από τα ταξίδια που έχω κάνει τα τελευταία χρόνια μαζί με τον σύντροφο μου.
