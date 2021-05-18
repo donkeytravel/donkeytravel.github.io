@@ -4006,8 +4006,7 @@ cite {
 
 .chapters .chapter {
   position: relative;
-  /* width: 32.333%; */
-  width: 50%;
+  width: 32.333%;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.4s;
